@@ -127,7 +127,8 @@ Le projet utilise un quantificateur statique optimisé pour les images naturelle
 ### Architecture du Code
 
 ```
-CodecProject/
+
+G2x-CoDec-Project/
 ├── include/
 │   └── codec.h      # Prototypes et structures (QuantLevel, BitStream)
 ├── src/
