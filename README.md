@@ -129,10 +129,10 @@ Le projet utilise un quantificateur statique optimisé pour les images naturelle
 ```
 G2x-CoDec-Project/
 ├── include/
-│   └── codec.h      # Prototypes et structures (QuantLevel, BitStream)
+│   └── codec.h
 ├── src/
-│   ├── codec.c      # Moteur d'encodage/décodage
-│   ├── pgmtodif.c   # Interface encodeur
-│   └── diftopgm.c   # Interface décodeur
+│   ├── codec.c
+│   ├── pgmtodif.c
+│   └── diftopgm.c
 └── Makefile
 ```
