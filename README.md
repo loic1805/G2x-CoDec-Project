@@ -127,7 +127,6 @@ Le projet utilise un quantificateur statique optimisé pour les images naturelle
 ### Architecture du Code
 
 ```
-
 G2x-CoDec-Project/
 ├── include/
 │   └── codec.h      # Prototypes et structures (QuantLevel, BitStream)
@@ -137,17 +136,3 @@ G2x-CoDec-Project/
 │   └── diftopgm.c   # Interface décodeur
 └── Makefile
 ```
-
----
-
-## 📊 Performances
-
-Le taux de compression dépend du contenu de l'image :
-- **Images avec peu de variations** : compression excellente (~2 bits/pixel)
-- **Images très texturées** : compression modérée (~6-8 bits/pixel)
-
----
-
-## 📝 Licence
-
-Projet académique - Usage éducatif uniquement.
