@@ -3,19 +3,19 @@
 G2Xpixmap* g2x_PixmapNew(int w, int h, int layer) {
     G2Xpixmap* p = (G2Xpixmap*)calloc(1, sizeof(G2Xpixmap));
     if (!p) return NULL;
-    p->width  = w;
+    p->width = w;
     p->height = h;
-    p->layer  = layer;
-    p->map    = (uchar*)calloc(w * h * layer, sizeof(uchar));
+    p->layer = layer;
+    p->map = (uchar*)calloc(w * h * layer, sizeof(uchar));
     if (p->map) p->end = p->map + (w * h * layer);
     return p;
 }
 
 static const QuantLevel Q[QSIZE] = {
-    { 0,  2,   1, 0,   0, 1 }, 
-    { 2,  6,   2, 2,   2, 2 }, 
-    { 6,  22,  4, 6,   6, 3 }, 
-    { 22, 256, 8, 22,  7, 3 }
+    { 0, 2, 1, 0, 0, 1 }, 
+    { 2, 6, 2, 2, 2, 2 }, 
+    { 6,  22,  4, 6, 6, 3 }, 
+    { 22, 256, 8, 22, 7, 3 }
 };
 
 void bs_init(BitStream* bs, size_t size) {
