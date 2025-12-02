@@ -10,7 +10,7 @@ static G2Xpixmap* img = NULL;
 static char* filename_in = NULL;
 static char* rootname = NULL;
 static char* extname = NULL;
-static char  filename_out[256];
+static char filename_out[256];
 
 void init(void) {
 
