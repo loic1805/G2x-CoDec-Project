@@ -17,12 +17,12 @@
 
 //le Quantificateur
 typedef struct {
-    uchar  binf;
+    uchar binf;
     ushort bsup;
-    uchar  nbit;
-    uchar  off;
-    uchar  prfx;
-    uchar  plen;
+    uchar nbit;
+    uchar off;
+    uchar prfx;
+    uchar plen;
 } QuantLevel;
 
 //le BitStream
@@ -30,7 +30,7 @@ typedef struct {
     uchar* data;   
     size_t size;
     size_t index;
-    int    capa;
+    int capa;
 } BitStream;
 
 //la gestion du BitStream
