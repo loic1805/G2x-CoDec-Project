@@ -1,11 +1,11 @@
 # 🖼️ PROJET : ENCODEUR / DÉCODEUR D'IMAGE (FORMAT DIF)
 
-## 👤 Auteur
-- Nom : Rakotoniary
-- Prénom : Loïc
+## 👤 Auteurs
+- Etudiant 1 : Loïc RAKOTONIARY
+- Prénom : Ethan DUONG
 - BUT Informatique, 3e année, Université Gustave Eiffel
 
-*Réalisé individuellement dans le cadre du module de Programmation Avancée.*
+*Réalisé dans le cadre du module de Programmation Avancée.*
 
 ---
 
@@ -123,16 +123,4 @@ Le projet utilise un quantificateur statique optimisé pour les images naturelle
 | [2, 6[     | 2           | `10`            | 4 bits     |
 | [6, 22[    | 4           | `110`           | 7 bits     |
 | [22, 256[  | 8           | `111`           | 11 bits    |
-
-### Architecture du Code
-
-```
-G2x-CoDec-Project/
-├── include/
-│   └── codec.h
-├── src/
-│   ├── codec.c
-│   ├── pgmtodif.c
-│   └── diftopgm.c
-└── Makefile
 ```
