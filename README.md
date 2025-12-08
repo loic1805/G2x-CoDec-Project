@@ -1,8 +1,7 @@
 # 🖼️ PROJET : ENCODEUR / DÉCODEUR D'IMAGE (FORMAT DIF)
 
 ## 👤 Auteurs
-- Etudiant 1 : Loïc RAKOTONIARY
-- Prénom : Ethan DUONG
+- Groupe : Loïc RAKOTONIARY et Ethan DUONG
 - BUT Informatique, 3e année, Université Gustave Eiffel
 
 *Réalisé dans le cadre du module de Programmation Avancée.*
